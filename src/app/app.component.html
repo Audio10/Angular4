@@ -8,5 +8,9 @@
   </h2>
     <hr/>
     <button [disabled]="!listo" (click)="hacerAlgo()"> Click</button>
+    <hr>
+    <input type="text" placeholder="Tu nombre" [(ngModel)]="nombre" />
+    <br>
+    Mi nombre es {{nombre}}
   </div>
 </div>
